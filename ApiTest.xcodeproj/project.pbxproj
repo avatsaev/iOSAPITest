@@ -14,13 +14,13 @@
 		A360F0231889A5CD00425AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F0221889A5CD00425AD1 /* main.m */; };
 		A360F0271889A5CD00425AD1 /* KWC_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F0261889A5CD00425AD1 /* KWC_AppDelegate.m */; };
 		A360F02A1889A5CD00425AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A360F0281889A5CD00425AD1 /* Main.storyboard */; };
-		A360F02D1889A5CD00425AD1 /* KWC_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F02C1889A5CD00425AD1 /* KWC_ViewController.m */; };
 		A360F02F1889A5CD00425AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A360F02E1889A5CD00425AD1 /* Images.xcassets */; };
 		A360F0361889A5CD00425AD1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F0351889A5CD00425AD1 /* XCTest.framework */; };
 		A360F0371889A5CD00425AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F0161889A5CD00425AD1 /* Foundation.framework */; };
 		A360F0381889A5CD00425AD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F01A1889A5CD00425AD1 /* UIKit.framework */; };
 		A360F0401889A5CD00425AD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A360F03E1889A5CD00425AD1 /* InfoPlist.strings */; };
 		A360F0421889A5CD00425AD1 /* ApiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F0411889A5CD00425AD1 /* ApiTestTests.m */; };
+		A360F04D1889A61700425AD1 /* KWC_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F04C1889A61700425AD1 /* KWC_TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A360F0251889A5CD00425AD1 /* KWC_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWC_AppDelegate.h; sourceTree = "<group>"; };
 		A360F0261889A5CD00425AD1 /* KWC_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWC_AppDelegate.m; sourceTree = "<group>"; };
 		A360F0291889A5CD00425AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A360F02B1889A5CD00425AD1 /* KWC_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWC_ViewController.h; sourceTree = "<group>"; };
-		A360F02C1889A5CD00425AD1 /* KWC_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWC_ViewController.m; sourceTree = "<group>"; };
 		A360F02E1889A5CD00425AD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A360F0341889A5CD00425AD1 /* ApiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A360F0351889A5CD00425AD1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A360F03D1889A5CD00425AD1 /* ApiTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApiTestTests-Info.plist"; sourceTree = "<group>"; };
 		A360F03F1889A5CD00425AD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A360F0411889A5CD00425AD1 /* ApiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiTestTests.m; sourceTree = "<group>"; };
+		A360F04B1889A61700425AD1 /* KWC_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWC_TableViewController.h; sourceTree = "<group>"; };
+		A360F04C1889A61700425AD1 /* KWC_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWC_TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				A360F0251889A5CD00425AD1 /* KWC_AppDelegate.h */,
 				A360F0261889A5CD00425AD1 /* KWC_AppDelegate.m */,
 				A360F0281889A5CD00425AD1 /* Main.storyboard */,
-				A360F02B1889A5CD00425AD1 /* KWC_ViewController.h */,
-				A360F02C1889A5CD00425AD1 /* KWC_ViewController.m */,
 				A360F02E1889A5CD00425AD1 /* Images.xcassets */,
 				A360F01D1889A5CD00425AD1 /* Supporting Files */,
+				A360F04B1889A61700425AD1 /* KWC_TableViewController.h */,
+				A360F04C1889A61700425AD1 /* KWC_TableViewController.m */,
 			);
 			path = ApiTest;
 			sourceTree = "<group>";
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A360F02D1889A5CD00425AD1 /* KWC_ViewController.m in Sources */,
 				A360F0271889A5CD00425AD1 /* KWC_AppDelegate.m in Sources */,
 				A360F0231889A5CD00425AD1 /* main.m in Sources */,
+				A360F04D1889A61700425AD1 /* KWC_TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
